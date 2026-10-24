@@ -1,6 +1,6 @@
-package com.korlebu.model;
+﻿package com.korlebu.model;
 
-import jakarta.persistence.Id;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "patients")
@@ -37,3 +37,4 @@ public class Patient {
     public String getDoctor() { return doctor; }
     public void setDoctor(String doctor) { this.doctor = doctor; }
 }
+

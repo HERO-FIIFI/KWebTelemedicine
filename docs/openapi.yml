@@ -1,0 +1,12 @@
+﻿openapi: 3.0.3
+info:
+  title: Telemedicine Patient API
+  version: 0.1.0
+paths:
+  /api/patients:
+    get: {summary: List patients}
+    post: {summary: Create patient}
+  /api/patients/{id}:
+    get: {summary: Get patient}
+    put: {summary: Update patient}
+    delete: {summary: Delete patient}
